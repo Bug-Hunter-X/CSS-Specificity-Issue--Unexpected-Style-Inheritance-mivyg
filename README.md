@@ -1,0 +1,1 @@
+This repository demonstrates a common CSS issue related to specificity. The `bug.css` file contains code that exhibits unexpected style inheritance in nested elements. The solution, provided in `bugSolution.css`, demonstrates how to correctly override parent styles using more specific selectors.
