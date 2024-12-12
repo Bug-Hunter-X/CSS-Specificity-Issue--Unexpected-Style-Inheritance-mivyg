@@ -1,0 +1,15 @@
+/* bugSolution.css */
+
+.parent {
+  color: blue;
+}
+
+.parent .child {
+  color: red !important; /* Added !important to ensure overriding */
+}
+
+/* Or, use a more specific selector: */
+
+.parent .child.specific {
+  color: green;
+}
